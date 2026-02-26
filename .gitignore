@@ -1,0 +1,14 @@
+# Secrets — never commit these
+.env
+credentials.json
+token.json
+
+# Temporary processing files — regenerated as needed
+.tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
